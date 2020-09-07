@@ -8,6 +8,10 @@ def test_is_even():
     assert instance.is_even(-2) == True, "should be True"
     assert instance.is_even(-5) == False, "should be False"
 
+def test_is_odd():
+    instance = Numbers()
+    assert instance.is_odd(5) == True, "should be True"
+
 def test_add():
     instance = Numbers()
     assert instance.add(1) == 1, "should be 1"

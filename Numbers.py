@@ -16,6 +16,17 @@ class Numbers:
         """
         return x%2 == 0
 
+    def is_odd(self, x):
+        """
+        Checks if a number is odd. (Sphinx style documentation)
+
+        :type x: int
+        :param x: number to check
+        :return: `False` if number is even, `True` otherwise
+        :rtype: bool
+        """
+        return x%2
+
     def add(self, *args):
         """
         Adds numbers passed in args.
