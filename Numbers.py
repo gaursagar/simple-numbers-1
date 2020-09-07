@@ -25,7 +25,7 @@ class Numbers:
         :return: `False` if number is even, `True` otherwise
         :rtype: bool
         """
-        return x%2 == 0
+        return x%2
 
     def add(self, *args):
         """
